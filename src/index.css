@@ -1,0 +1,284 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.a {
+  grid-column:1/4;
+  grid-row:1/5;
+}
+
+.btn0 {
+  grid-column:2/3;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.buttonsText{
+  font-size:1.1vw;
+}
+
+.textMain{
+  width: 60%;
+  margin: 5vh auto;
+}
+
+.v3{
+  width: 20%;
+  height: 40vh;
+  margin: 1vw;
+  margin: 0 auto;
+}
+.Flex{
+  display: inline-block;
+}
+
+.btn{
+  padding: 0.5vw;
+  margin:0 .4vw;
+  font-size:1.3vw;
+}
+.title{
+  font-size:2vw;
+}
+.interfaz-log{
+  width: 50%;
+  padding: 0.3vw;
+} 
+
+.info {
+  width: 50%;
+  height: 65vh;
+}
+
+.calmedia {
+  width: 55%;
+}
+
+@media (width < 375px){
+  .info{
+    width:90vw;
+    height: 65vh;
+  }
+  .calmedia {
+    width: 80%;
+  }
+}
+
+@media (max-width:449px) and (max-height:599px) {
+  .calculatem{
+    margin:0 auto;
+    width: 50%;
+    height: 40vh;
+  }
+  .buttonsText{
+    font-size:3vw;
+  }
+  .btn{
+    padding: 1.3vw;
+    margin:0 .4vw;
+    font-size:2.4vw;
+  }
+  .title{
+    font-size:4vw;
+  }
+  .interfaz-log{
+    width: 80%;
+    padding:1vw;
+  }
+  .text-log{
+    font-size:4vw;
+  }
+  .input-log{
+    width: 90%;
+    font-size:3.3vw;
+    margin-top:0;
+  }
+  .button-log{
+    font-size:3vw;
+    width: 44%;
+    padding:0.5vw 0.4vw;
+    margin:1.2vw 0.6vw;
+  }
+  .label-log{
+    display:block;
+    font-size:3vw;
+    color:#000;
+  }
+  .calmedia {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .a2{
+    display: none;
+  }
+}
+
+@media (max-width:449px) and (min-height:600px) {
+  .calculatem{
+    margin:0 auto;
+    width: 55%;
+    height: 30vh;
+  }
+  .buttonsText{
+    font-size:3vw;
+  }
+  .btn{
+    padding: 1.3vw;
+    margin:0 .4vw;
+    font-size:2.4vw;
+  }
+  .title{
+    font-size:4vw;
+  }
+  .interfaz-log{
+    width: 80%;
+    padding:1vw;
+  }
+  .text-log{
+    font-size:4vw;
+  }
+  .input-log{
+    width: 90%;
+    font-size:3.3vw;
+    margin-top:0;
+  }
+  .button-log{
+    font-size:3vw;
+    width: 44%;
+    padding:0.5vw 0.4vw;
+    margin:1.2vw 0.6vw;
+  }
+  .label-log{
+    display:block;
+    font-size:3vw;
+    color:#000;
+  }
+  .a2{
+    display: none;
+  }
+  .calmedia {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width:500px) and (min-height:600px) {
+  .calculatem{
+    margin:0 auto;
+    width: 55%;
+    height: 40vh;
+  }
+  .buttonsText{
+    font-size:3vw;
+  }
+  .btn{
+    padding: 0.9vw;
+    margin:0 .4vw;
+    font-size:1.8vw;
+  }
+  .interfaz-log{
+    width: 80%;
+    padding:1vw;
+  }
+  .text-log{
+    font-size:4vw;
+  }
+  .input-log{
+    width: 90%;
+    font-size:3.3vw;
+    margin-top:0;
+  }
+  .button-log{
+    font-size:3vw;
+    width: 44%;
+    padding:0.5vw 0.4vw;
+    margin:2vw 0.6vw;
+  }
+  .label-log{
+    display:block;
+    font-size:3vw;
+    color:#000;
+  }
+  .a2{
+    display: none;
+  }
+  .calmedia {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width:769px) and (min-height:580px) {
+  .Flex{
+    margin-top:19vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .calculatem{
+    width: 20%;
+    height: 40vh;
+    margin-right:2vw;
+  }
+  .buttonsText{
+    font-size:1.1vw;
+  }
+  .textMain{
+    width: 25%;
+    margin-left:2vw;
+  }
+  .text {
+    font-size:1.1vw;
+  }
+  .btn{
+    padding: 0.5vw;
+    margin:0 .4vw;
+    font-size:1.3vw;
+  }
+  .interfaz-log{
+    width: 40%;
+    padding:1vw;
+  }
+  .text-log{
+    font-size:2vw;
+    margin-bottom:1vw;
+  }
+  .input-log{
+    width: 90%;
+    font-size:1.4vw;
+    margin:1.2vw 0;
+    margin-top:0;
+  }
+  .button-log{
+    font-size:1.4vw;
+    width: 44%;
+    padding:0.5vw 0.4vw;
+    margin:0;
+  }
+  .label-log{
+    display:block;
+    font-size:1.3vw;
+    color:#000;
+  }
+  .calmedia {
+    width: 55%;
+    margin-left:0;
+    margin-right:0;
+  }
+  .jua{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .a2{
+    display:inline;
+  }
+  .p{
+    display:none;
+  }
+}
